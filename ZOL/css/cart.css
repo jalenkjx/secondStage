@@ -1,0 +1,439 @@
+.wrapper{
+	width:960px;
+	margin:0 auto;
+}
+.mt{
+	margin-top: 10px;
+}
+.mt20{
+	margin-top:20px;
+}
+.header{
+	margin:0 auto;
+	padding:30px 0;
+	width:960px;
+}
+.logo{
+	float:left;
+}
+.logo img{
+	display:block;
+	float:left;
+}
+.flow_step{
+	float:right;
+	padding:2px 0 0 ;
+}
+.flow_step .s1{
+	padding: 0 14px;
+}
+
+.flow_step li{
+	float: left;
+    width: 90px;
+    padding: 0 14px 0 0;
+    background-position: 100% -74px;
+    background-color: #e6e6e6;
+    font: 14px/36px "Microsoft YaHei";
+    text-align: center;
+    background-image: url(../images/step-bg.png);
+    background-repeat: no-repeat;
+}
+.flow_step_1 .s1{
+	background-position: 100% -37px;
+    background-color: #e02d2d;
+    color: #fff;
+}
+.flow_step_1 .s5{
+	padding:0 ;
+	background:#e6e6e6;
+}
+.cart_state{
+	text-align: right;
+}
+
+
+.cart_state p{
+	padding:7px 0 10px 0 ;
+	text-align: right;
+}
+.cart_state .total{
+	height: 22px;
+    line-height: 22px;
+    color: #666;
+}
+.cart_state input{
+	float: right;
+    width: 58px;
+    height: 22px;
+    background:url(../images/pic.png) no-repeat -192px -150px;
+
+    border: 0 none;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cart_state .total span{
+	float: right;
+    padding: 0 8px 0 0;
+    line-height: 24px;
+    color: #999;
+}
+.cart_state .total em{
+	padding: 0 2px 0 0;
+    color: #ff0000;
+    font-weight: bold;
+    font-family: verdana;
+}
+.order_table table{
+	border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+tbody{
+	display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.order_table th{
+	height: 36px;
+    background: #f5f5f5;
+    border-top: 2px solid #e02d2d;
+    line-height: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+.order_table .th_1{
+	width:62px;
+}
+.order_table .th_2{
+	width: 217px;
+    padding: 0 0 0 100px;
+    text-align: left;
+}
+.order_table .th_3{
+	width:122px;
+}
+.order_table .th_4{
+	width:106px;
+}
+.order_table .th_5{
+	width:121px;
+}
+.order_table .th_6{
+	width:107px;
+}
+.order_table .th_7{
+	width:81px;
+}
+.order_table td{
+    padding: 10px;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+}
+.order_table .store_info{
+    height: 43px;
+    padding: 10px 0 0 0;
+    border: 0 none;
+    background: #fff;
+}
+.shopname{
+    padding-left:10px;
+    float: left;
+    line-height: 43px;
+}
+.contact{
+    float: left;
+    padding: 11px 0 0 5px;
+}
+.order_table .s_info{
+    padding: 10px 10px 10px 12px;
+    width: 357px;
+    border-left: 1px solid #e3e3e3;
+}
+.s_info input{
+    float: left;
+    margin: 24px 10px 0 0;
+}
+.s_info .pic{
+    float: left;
+    width: 80px;
+    height: 60px;
+    border: 1px solid #ccc;
+    line-height: 58px;
+    text-align: center;
+    background: #fff;
+}
+.s_info .infobox{
+    float: left;
+    width: 240px;
+    padding: 0 0 0 10px;
+    line-height: 20px;
+    text-align: left;
+}
+.s_info .infobox .tit{
+    margin: -2px 0 4px;
+    height: 40px;
+    line-height: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    overflow: hidden;
+}
+.s_info .info_con{
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    position: relative;
+}
+.s_info .info_help{
+    position: absolute;
+    left: 36px;
+    top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    display:none;
+}
+.s_price{
+    width:102px;
+}
+.s_amount{
+    width:130px;
+}
+.buy_num{
+    position: relative;
+    width: 110px;
+    height: 20px;
+    padding: 31px 0;
+    text-align: center;
+}
+.minus,.plus{
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.text_amount{
+    width: 28px;
+    height: 16px;
+    float: left;
+    padding: 1px 3px;
+    text-align: center;
+}
+.s_agio{
+    width:101px;
+}
+.s_total{
+    width:87px;
+}
+.s_total em{
+    color: #ff0000;
+    font-family: "verdana";
+}
+.s_del{
+    border-right: 1px solid #e3e3e3;
+    width:61px;
+}
+.s_delbox{
+    position:relative;
+}
+.deletebox{
+    width: 144px;
+    padding: 6px 10px;
+    position: absolute;
+    top: -60px;
+    left: -50px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    line-height: 18px;
+    color: #666;
+    display:none;
+}
+.deletebox a{
+    margin: 0 12px;
+    display: inline-block;
+    color: #3366cc;
+    cursor: pointer;
+}
+.deletebox i{
+    display: block;
+    width: 13px;
+    height: 7px;
+    margin-left: -5px;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    background:url(../images/pic.png) no-repeat -248px -229px;
+}
+.total_price{
+    padding: 0 10px 0 0;
+    height: 52px;
+    line-height: 52px;
+    text-align: right;
+}
+.total_price span{
+    color:#666;
+}
+.total_price em{
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: verdana;
+}
+.order_foot{
+    position: relative;
+    padding: 0 0 0 12px;
+    height: 33px;
+    border: 1px solid #e3e3e3;
+    background: #f5f5f5;
+    line-height: 33px;
+}
+.order_foot label{
+    float: left;
+    padding: 0 25px 0 0;
+}
+.order_foot label input{
+    margin-right:5px;
+}
+.order_foot a{
+    float:left;
+}
+.go_shopping{
+    float: none;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    margin: 0;
+    font-family: "simsun";
+}
+.accounting_btn{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 130px;
+    height: 35px;
+    font: 18px/35px "Microsoft YaHei";
+    color: #fff;
+    border: 0 none;
+    background:url(../images/pic.png) no-repeat 0 -113px;
+    cursor: pointer;
+}
+.go_shopping .iconfont{
+    font-size:12px;
+}
+.modgoods_tab{
+    border-bottom: 1px solid #e3e3e3;
+}
+.modgoods_tab li{
+    float: left;
+    width: 129px;
+    height: 33px;
+    border: 1px solid #e3e3e3;
+    border-bottom: 0 none;
+    text-align: center;
+    font: 16px/33px "Microsoft YaHei";
+    margin: 0 5px -1px 0;
+    position: relative;
+    border-top: 2px solid #e02d2d;
+    background: #fff;
+    cursor: auto;
+}
+.modgoods_tabbox{
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-top: 0 none;
+}
+.modgoods_list{
+    padding:20px 0 13px 14px;
+}
+.modgoods_list li{
+    float: left;
+    width: 162px;
+    padding: 0 12px;
+    text-align: center;
+}
+.modgoods_list img{
+    display: block;
+    border: 1px solid #e2e2e2;
+}
+.modgoods_list  span{
+    display: block;
+    height: 24px;
+    padding: 5px 0 0;
+    line-height: 24px;
+    overflow: hidden;
+}
+.modgoods_list .price{
+    color: #ff0000;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+
+}
+.footer{
+    margin:40px auto 0;
+    padding:5px 0 20px;
+    width:960px;
+    text-align:center;
+    border-top:1px solid #e3e3e3;
+}
+.links{
+    padding:14px 0 6px;
+    color:#ccc;
+    text-align: center;
+}
+.links a{
+    margin:0 10px;
+}
+.footer .copyright{
+    display: inline-block;
+    height: 23px;
+    padding-left: 28px;
+    position: relative;
+    line-height: 23px;
+}
+.authentication{
+    padding-top:12px;
+}
+.authentication a{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.authentication a img{
+    border:none;
+}
+
+
+.shopcar_tip{
+    height:145px;
+    padding:45px 0 12px 169px;
+    background:url(../images/shopcar.png) no-repeat 60px 45px;
+    display:none;
+}
+.shopcar_tip dt{
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    line-height: 40px;
+}
+.shopcar_tip dd{
+    line-height:24px;
+}
+.shopcar_tip dd a{
+
+    margin:0 7px;
+}

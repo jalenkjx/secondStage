@@ -1,0 +1,714 @@
+/*侧边栏*/
+.side_toolbar_box{
+	position: fixed;
+    top: 0;
+    right:0; /*-237px;*/
+    z-index: 1800;
+    height: 100%;
+    background: transparent;
+}
+.toolbar_toolbar{
+	position: absolute;
+    top: 0;
+    left: -37px;
+    width: 37px;
+    height: 100%;
+    background: #2d2d2d;
+    z-index: 1;
+}
+.operation_tabbox{
+	position: absolute;
+    top: 50%;
+    left: 0;
+    margin: -250px 0 0;
+    width: 37px;
+    height: 266px;
+}
+.toolbar_tool{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.tab_ico{
+	background:url(../images/bar_ico.png) no-repeat;
+	width:37px;
+	height:37px;
+	cursor:pointer;
+}
+
+	
+
+
+.tab_order, .tab_footprint,.tab_cart ,.tab_coupons  {
+	position: relative;
+    zoom: 1;
+    margin: 0 0 12px;
+    background-color: #2d2d2d;
+}
+.tab_hover{
+	background:#f33;
+}
+.tab_order .tab_ico{
+	background-position: 0 0 ;
+}
+.tab_footprint .tab_ico{
+	background-position: 0 -74px;
+}
+.tab_cart .tab_ico{
+	background-position: 0 -111px;
+}
+.cart_num{
+	position: absolute;
+    top: -4px;
+    right: 3px;
+    padding: 1px 4px 0;
+    height: 13px;
+    font: 12px/13px Arial;
+    background: #f33;
+    color: #fff;
+    border-radius: 10px;
+}
+.tab_hover .cart_num{
+	background:#fff;
+	color:#f33;
+}
+.tab_coupons .tab_ico{
+	background-position: 0 -693px;
+}
+
+.toolbar_tool{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.toolbar_tool .feedback{
+	display: block;
+    padding: 5px;
+    font: 12px/14px "Microsoft YaHei";
+    color: #fff;
+    text-align: center;
+}
+.toolbar_tool .backtop{
+	display: block;
+    width: 37px;
+    height: 37px;
+    background:url(../images/bar_ico.png) no-repeat 0 -185px;
+    background-color: #2d2d2d;
+}
+
+
+.toolbar_plugins{
+	position: relative;
+    width: 240px;
+    height: 100%;
+    background: #ededed;
+    z-index: 10;
+    display:none;
+}
+.cart_box_hd{
+	height:50px;
+	position:relative;
+	background:#ccc;
+}
+.cart_box_hd .cart_box_title{
+	font-size:16px;
+	line-height:50px;
+	text-align: center;
+}
+.plugins_close{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 37px;
+    height: 50px;
+    cursor: pointer;
+}
+.plugins_close .iconfont{
+	line-height:50px;
+	padding:10px;
+}
+.plugins_close .iconfont:hover{
+	color:#f33;
+}
+.cart_box_hd .all_links{
+	position: absolute;
+    top: 0;
+    right: 10px;
+    font: 12px/50px SimSun;
+}
+
+.list_box{
+	height: 610px;
+}
+.cart_list li{
+	height:130px;
+	border:1px solid #ccc;
+	margin:2px 10px;
+	position:relative;
+}
+.list_pic{
+	padding:10px 5px;
+	width:42px;
+	height:42px;
+	margin-right:10px;
+	float:left;
+}
+.list_pic img{
+	width:42px;
+	height:42px;
+	display:inline-block;
+}
+.list_pic i{
+	position: absolute;
+	top:-5px;
+	left:0px;
+	cursor:pointer;
+
+}
+.list_pic i:hover{
+	color:#f33;
+}
+.goods_name{
+	width:150px;
+	height:46px;
+	font-size:12px;
+	line-height:22px;
+	float:right;
+	overflow:hidden;
+	padding:8px 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.goods_price{
+	text-align: right;
+	color:#f33;
+	font-size:16px;
+	padding:0 5px;
+}
+.settlement_btn{
+	display: block;
+    margin: 0 auto;
+    width: 215px;
+    height: 30px;
+    font: 12px/30px "Microsoft YaHei";
+    color: #fff;
+    text-align: center;
+    background: #f33;
+    border: 0 none;
+    cursor: pointer;
+}
+
+/*顶部栏样式*/
+.topbar{
+	height:29px;
+	line-height:29px;
+	background:#f5f5f5;
+	border-bottom:1px solid #e6e6e6;
+}
+	/*顶部栏左边*/
+.login_info{
+	float:left;
+}
+.topbar a:hover{
+	color:#c00;
+	text-decoration: underline;
+}
+.index_login a,.index_register a{
+	color:#36c;
+}
+.index,.index_login{
+	padding-right:20px;
+}
+	/*//顶部栏左边              end*/
+
+	/*顶部栏右边*/
+.top_menu{
+	margin-right:-10px;
+	float:right;
+	position:relative;
+}
+.top_menu li{
+	float:left;
+	height:29px;
+	line-height:29px;
+	font-family: arial;
+}
+.top_menu li a{
+	display:inline-block;
+	height:29px;
+	padding:0 10px;
+	font-family: arial;
+	color:#666;
+
+}
+.top_menu .tm_mobile a{
+	padding:0 23px 0 25px ;
+	background:url(../images/topbar_ico.png) no-repeat;
+	
+}
+.tm_separator{
+	margin:0 10px;
+	color:#ccc;
+}
+.top_menu .ico{
+	display:inline-block;
+	width:7px;
+	height:4px;
+	background:url(../images/topbar_ico.png) no-repeat;
+	background-position: 0 -45px;
+}
+.top_menu .tm_buyer{
+	position:absolute;
+	width:88px;
+	padding:3px 9px;
+	border:1px solid #ededed;
+	top:29px;
+	display:none;
+	background:#fff;
+}
+.top_menu .tm_buyer a{
+	display:block;
+	font:12px/28px arial;
+
+}
+.top_menu .tm_buyer a:hover{
+	text-decoration: none;
+}
+.tm_hover:hover{
+	background:#fff;
+}
+.tm_wechat{
+	width:130px;
+	height:130px;
+	padding:20px;
+	position: absolute;
+	top:29px;
+	border:1px solid #ededed;
+	display:none;
+	background:#fff;
+}
+.tm_wechat img {
+	width:130px;
+	height:130px;
+}
+.tm_phonenum{
+	width:80px;
+	padding:3px 9px;
+	position: absolute;
+	top:29px;
+	right:0;
+	border:1px solid #ededed;
+	text-align: center;
+	display:none;
+	background:#fff;
+}
+	/*//顶部栏右边-------end*/
+/*顶部栏样式end*/
+
+
+/*头部导航栏*/
+.header{
+	padding:25px 0 0;
+	width:1200px;
+	height:92px;
+	margin:0 auto;
+}
+	/*logo*/
+.header .logo {
+	float:left;
+}
+.header .logo h1{
+	float:left;
+}
+.header .logo h1 a{
+	display:block;
+	width:180px;
+	height:50px;
+	background:url(http://icon.zol-img.com.cn/newshop/shop/index/logo_360x100.png) no-repeat;
+	background-size: cover;
+	text-indent: -5000px;
+}
+.header .logo p{
+	float: left;
+    margin: 3px 0 0 10px;
+    padding-left: 10px;
+    border-left: 1px solid #eee;
+    font: 14px/44px "Microsoft YaHei";
+    color: #666;
+}
+	/*//logo  ---------------------- end*/
+	/*search*/
+.header .search_box	{
+	float:left;
+	padding-top:12px;
+	padding-left:56px;
+}
+.header .search_box form{
+	border:2px solid #c40000;
+}
+.search_text{
+	padding: 6px 10px;
+    width: 427px;
+    height: 20px;
+    font: 14px/20px "Microsoft YaHei";
+    color: #666;
+    border:none;
+
+}
+.search_btn{
+	width: 89px;
+    height: 33px;
+    font: 16px/32px "Microsoft YaHei";
+    color: #fff;
+    border:none;
+    background: #c40000;
+    cursor: pointer;
+}
+.header .search_box .search_hot{
+	padding-top:7px;
+}
+.header .search_box .search_hot a{
+	display:inline-block;
+	margin-right:18px;
+	color:#999;
+}
+.header .search_box .search_hot a:hover{
+	color:#cc4935;
+	text-decoration: underline;
+}
+	/*//search-------------------------end*/
+	/*头ad*/
+.header .h_ad{
+	width:180px; 
+	height:60px;
+	float:right;
+
+}
+.header .h_ad img{
+	display:block;
+	width:180px;
+	height:60px;
+}
+	/*头ad------------------------------end*/
+	
+/*网页头部---------------------------------------------------------------end*/
+
+/*导航栏*/
+.nav_box{
+	width:1000px;
+	padding-left:200px;
+	position:relative;
+	padding-bottom:2px;
+	border-bottom:2px solid #c40000;
+	margin:0 auto;
+}
+.nav_box .category_nav_container{
+	width:200px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.category_nav_container h2{
+	background:#c40000;
+	color:#fff;
+	font:14px/34px "Microsoft YaHei";
+	text-align: center;
+}
+
+
+
+
+
+	/*种类菜单*/
+
+
+
+
+.category_nav_container .category_nav_menu{
+	height:341px;
+	background:#2d2d2d;
+}
+
+
+.category_nav_menu ul li{
+	height:38px;
+	padding-left:31px;
+	border-top:1px solid #3d3d3d;
+	font:12px/38px "Microsoft YaHei";
+	margin-left:1px;
+	position:relative;
+
+}
+
+.category_nav_menu .item i{
+	position:absolute;
+	top:12px; 
+	left:10px;
+	color:#ababab;
+	font-size:17px;
+	line-height:13px;
+}
+
+
+
+.category_nav_menu .item a{
+	color:#fff;
+	font-weight:bold;
+}
+.category_nav_menu ul li:hover{
+	background:#fff;
+
+}
+.category_nav_menu ul li:hover .item a{
+	color:#333;
+}
+
+.category_nav_menu .menu_content{
+	position:absolute;
+	top:0;
+	left:199px;
+	padding:5px 30px;
+	width:690px;
+	height:399px;
+	background:rgba(255,255,255,0.98);
+	border-right:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+	display:none;
+	z-index: 2;
+
+}
+.category_nav_menu .category_2{
+	top:-39px;
+}
+.category_nav_menu .category_3{
+	top:-78px;
+}
+.category_nav_menu .category_4{
+	top:-117px;
+}
+.category_nav_menu .category_5{
+	top:-156px;
+}
+.category_nav_menu .category_6{
+	top:-195px;
+}
+.category_nav_menu .category_7{
+	top:-234px;
+}
+.category_nav_menu .category_8{
+	top:-273px;
+}
+.menu_content dl{
+	position: relative;
+    padding: 15px 0 20px 68px;
+    font: 12px/26px "Microsoft YaHei";
+    border-bottom: 1px solid #eee;
+}
+.menu_content .service{
+	padding:15px 0 8px 68px;
+	border:none;
+}
+.menu_content dt{
+	position:absolute;
+	top:15px;
+	left:0;
+	font-weight: bold;
+}
+.menu_content dd{
+	color:#d3d3d3;
+}
+.menu_content a{
+	margin:0 10px;
+	color:#333;
+
+}
+.service dt a{
+	color:#00ae75;
+}
+
+.service dd{
+	padding-left:8px;
+}
+
+.service dd a{
+	position: relative;
+    display: inline-block;
+    padding-left: 27px;
+    margin-right:20px;
+    color: #00ae75;
+}
+.service dd a i{
+	position:absolute;
+	top:2px;
+	left:2px;
+	font-size:20px;
+	line-height: 20px;
+}
+
+	/*种类菜单---------------------------------------end*/
+
+	/*ad_div*/
+.category_nav_container .ad_div{
+	width:200px;
+	height:70px;
+}
+.ad_div img{
+	display:block;
+	width:200px;
+	height:70px;
+}
+
+
+.nav li{
+	float:left;
+	padding:0 20px;
+}
+.nav li a{
+	display:block;
+	font:16px/30px "Microsoft YaHei";
+}
+.nav_box .nav_tips{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.nav_tips a{
+	color:#f33;
+	font:16px/30px "Microsoft YaHei";
+}
+.nav_tips a:hover{
+	color:#83221c;
+}
+
+
+/*页足*/
+.footer{
+	margin-top:30px;
+	border-top:1px solid #d9d9d9;
+}
+.footer_service{
+	padding:30px 0;
+}
+.footer_service li {
+    position: relative;
+    float: left;
+    width: auto;
+    padding: 0 66px 0 71px;
+    height: 50px;
+    font: 18px/50px "Microsoft YaHei";
+}
+.footer_service .iconfont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    line-height: 50px;
+    color: #00ae75;
+}
+
+.footer_service_relate{
+	padding:20px 0;
+	border-top:1px solid #ededed;
+}
+.footer_service_relate .cooperation{
+	width:145px;
+	background:url(../images/footer.png) no-repeat 0 -215px;
+}
+.footer_service_relate .cooperation,.footer_service_relate .hotline{
+	float:right;
+	padding-left:60px;
+}
+.footer_service_relate dl{
+	float:left;
+	width:175px;
+}
+.footer_service_relate dt{
+	font: bold 14px/28px "Microsoft YaHei";
+    color: #666;
+}
+.footer_service_relate dd p{
+	font:12px/28px "Microsoft YaHei";
+}
+.footer_service_relate .cooperation dt, .hotline dt{
+	padding:0;
+	font-size:16px;
+}
+
+.cooperation .btn{
+	display: block;
+    margin: 6px 0 0;
+    width: 80px;
+    height: 26px;
+    font: 12px/26px SimSun;
+    color: #fff;
+    text-align: center;
+    background: #f33;
+    border-radius: 2px;
+}
+.footer_service_relate .hotline{
+	width:210px;
+	background:url(../images/footer.png) no-repeat 0 -90px;
+}
+.footer_service_relate .hotline .weibo{
+	padding-left:26px;
+	display: inline-block;
+	line-height:32px;
+	color:#333;
+	background:url(../images/footer.png) no-repeat 0 0px;
+}
+
+
+/*页足导航*/
+
+.footer_nav_bar{
+	padding:25px 0 30px;
+	background:#2d2d2d;
+}
+.partners{
+	position: relative;
+    zoom: 1;
+    padding: 0 135px 0 55px;
+   /* height: 24px;*/
+    overflow: hidden;
+    font: 12px/24px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    color: #666;
+}
+.partners .label{
+	position: absolute;
+	top:0;
+	left:0;
+	color:#ccc;
+}
+.partners a{
+	margin: 0 10px;
+    color: #fff;
+
+}
+.footer_nav{
+	margin-left:-10px;
+    padding: 7px 0 0;
+    font: 12px/24px "Microsoft YaHei";
+    color: #666;
+}
+.footer_nav a{
+	margin: 0 10px;
+    color: #fff;
+
+
+}
+.copyright{
+	margin: 0 0 0 -10px;
+    padding: 20px 0 0;
+    font: 12px/24px "Microsoft YaHei";
+    color: #666;
+}
+.copyright span{
+	padding-left:15px;
+	color:#999;
+}
+.copyright a{
+	margin: 0 10px;
+    color: #999;
+}

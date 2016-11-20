@@ -1,0 +1,1156 @@
+.nav_box .category_nav_container {
+    z-index:50;
+}
+.ad_div{
+    display:none;
+}
+.category_nav_container h2{
+    cursor:pointer;
+}
+.category_nav_container .category_nav_menu{
+    display:none;
+}
+
+
+
+a:hover{
+    color:#c00;
+    text-decoration: underline;
+}
+.bread_crumbs{
+	margin-left:-8px;
+	font:12px/32px SimSun;
+	color:#999;
+}
+.bread_crumbs a{
+	color:#333;
+	margin:0 8px;
+}
+.bread_crumbs span{
+	color:#999;
+	margin:0 8px;
+}
+.detail_inner{
+	border:1px solid #ededed;
+}
+.detail_inner .detail_content{
+	float:left;
+	width:1000px;
+}
+.focus{
+	float: left;
+    padding: 10px 0 0 20px;
+    width: 400px;
+    z-index: 8;
+    cursor:crosshair;
+}
+/*.focus .big_pic  a{
+	cursor: crosshair;
+    position: relative;
+    display: block;
+    width: 400px;
+}*/
+.big_pic{
+    position:relative;
+}
+ .big_pic img{
+	margin-bottom:10px;
+	width:400px;
+	height:400px;
+}
+.big_pic .mask{
+    width:400px;
+    height:400px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 20;
+}
+.big_pic .position{
+	z-index: 10;
+    position: absolute;
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    display:none;
+    background:#fff;
+}
+.zoom1_big{
+	width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 230px;
+    left: 460px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    background:#fff;
+    display:none;
+    z-index: 10;
+}
+.zoom1_big_all{
+    width:800px;
+    height:800px;
+    position:absolute;
+    left:0;
+}
+
+.focus_list{
+   position: relative;
+    height: 70px;
+    overflow: hidden;
+    width: 400px;
+}
+.focus_list ul{
+	width: 415px;
+    padding: 0 0 0 1px;
+    overflow: hidden;
+    zoom: 1;
+}
+.focus_list ul li{
+	float: left;
+    width: 70px;
+    height: 70px;
+    margin: 0 12px 0 0;
+    position: relative;
+    cursor:pointer;
+}
+.focus_list li a{
+	display:block;
+}
+.focus_list li a img{
+	display:block;
+	width:70px;
+	height:70px;
+}
+.focus_list .border{
+	position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 66px;
+    height: 66px;
+    border: 2px solid #c00;
+}
+/*//焦点图*/
+.action{
+	padding:25px 0;
+}
+.collect , .share a{
+	float: left;
+    position: relative;
+    margin: 0 15px 0 0;
+    padding: 0 0 0 20px;
+    line-height: 22px;
+    color: #666;
+}
+.collect:hover , .share a:hover
+{
+	color:#c00;
+	text-decoration: underline;
+}
+.collect:hover i, .share a:hover i{
+	opacity:1;
+}
+.collect i, .share i{
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 46px;
+    height: 22px;
+    opacity: 0.25;
+    background:url(../images/detail/bg.png) no-repeat -46px -290px;
+}
+.share i{
+	background:url(../images/detail/bg.png) no-repeat -46px -314px;
+}
+/*//分享收藏*/
+
+
+.deal_wrapper{
+	float: right;
+    padding: 10px 20px 0 0;
+    width: 530px;
+}
+.commodity_title{
+	margin-bottom:10px;
+	padding: 7px 0 0;
+    font: 16px/22px "Microsoft YaHei";
+}
+
+.ad_link{
+	color:#c00;
+	font-size:14px;
+}
+.ad_link:hover{
+	text-decoration: underline;
+}
+.tap_look{
+	font-size:14px;
+	color:#36c;
+	text-decoration: underline;
+}
+.tap_look:hover{
+	color:#c00;
+}
+.price_panel{
+	margin: 18px 0 0;
+    padding: 5px 10px;
+    background: #f7f7f7;
+}
+.price_panel dl{
+	padding: 0 0 0 75px;
+    position: relative;
+    line-height: 30px;
+}
+.price_panel dt{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    color: #666;
+}
+.price_panel dd span{
+	float: left;
+    margin: -2px 0 0;
+    height: 32px;
+    overflow: hidden;
+    font-size: 16px;
+    vertical-align: middle;
+    color: #c00;
+}
+.price_panel dd span em{
+	padding: 0 0 0 5px;
+    font-family: tahoma;
+    font-size: 30px;
+    font-weight: bold;
+}
+.detail_info{
+	padding:10px 0 20px;
+}
+.detail_info dl{
+	position:relative;
+}
+.detail_info dt{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+}
+.detail_info .freight_a{
+	margin: 0 10px;
+    padding: 5px 0 0;
+    z-index: 2;
+}
+.detail_info dd{
+	padding-left:65px;
+	line-height:32px;
+    color:#999;
+}
+.detail_info .freight_area{
+	float:left;
+	position:relative;
+}
+.freight_area .area_selected{
+	float:left;
+	position:relative;
+	line-height: 23px;
+}
+.area_selected .area_name{
+	float:left;
+	position: relative;
+    display: inline-block;
+    height: 23px;
+    border: 1px solid #e6e6e6;
+    padding: 0 20px 0 6px;
+    line-height: 23px;
+    cursor: pointer;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    z-index: 6;
+    background-color: #fff;
+    background-image:url(../images/detail/bg01.png);
+}
+.area_selected_info{
+	margin-left:10px;
+	float:left;
+}
+.bold{
+	font-weight:bold;
+}
+.line{
+	padding:0 10px;
+	color:#e6e6e6;
+}
+.evaluate dd em{
+	color:#f33;
+	font-weight:bold;
+}
+.evaluate {
+	position:relative;
+	margin:5px 10px 0;
+}
+.service_bar{
+	margin:0 10px;
+}
+.service_bar dd a{
+	color:#36c;
+}
+.service_bar li{
+	float: left;
+    position: relative;
+    margin: 0 0 5px;
+    padding: 0 0 0 28px;
+    width: 82px;
+    height: 24px;
+    font: 12px/22px "Microsoft YaHei";
+}
+.service_bar .iconfont{
+	position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    line-height: 24px;
+    color: #00ae75;
+}
+
+
+.skin_inner{
+    margin:10px 10px 15px;
+    border-top:1px solid #f2f2f2;
+}
+
+/*颜色类别*/
+.skin_inner .color_type{
+    padding-top:15px;
+}
+.color_type dt{
+    top:20px;
+}
+.options li{
+    float:left;
+    margin:5px 6px 0 0;
+    position:relative;
+}
+.options li span{
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #e6e6e6;
+    color: #333;
+}
+.options .cur .canbuy,
+.options .canbuy:hover{
+    padding: 0 9px;
+    height: 26px;
+    line-height: 26px;
+    border: 2px solid #c00;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.options .cur .canbuy i{
+    display: block;
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+    width: 10px;
+    height: 10px;
+    
+    font: 0/0 arial;
+    background:url(../images/detail/bg.png) no-repeat 0 -346px;
+}
+
+
+/*套装详情*/
+.suit_info{
+    margin: 5px 0 0;
+    padding: 8px 10px;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    line-height: 20px;
+}
+.none{
+    display:none;
+}
+/*购买数量*/
+.quantity{
+    padding-top:20px;
+}
+.quantity dt{
+    top:20px;
+}
+.amount{
+    float:left;
+    margin-right:10px;
+    width:102px;
+    height:28px;
+    border:1px solid #e6e6e6;
+
+}
+.decrease , .nodecrease, .increase{
+    float: left;
+    width: 28px;
+    height: 28px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    background:url(../images/detail/bg.png) no-repeat 0 -169px;
+}
+.nodecrease{
+    background-position: 0 -197px;
+}
+.increase{
+    background-position: -32px -169px;
+}
+.amount .goods_num{
+    float:left;
+    width:44px;
+    height:28px;
+    text-align:center;
+    border:none;
+    border-left:1px solid #e6e6e6;
+    border-right:1px solid #e6e6e6;
+    color:#333;
+    font:12px/28px Microsoft YaHei;
+    outline: none;
+}
+/*交易按钮*/
+.deal_btn{
+    padding:30px 0 0 65px;
+    height:50px;
+}
+.buy_now{
+    width:140px;
+    height:50px;
+    color:#fff;
+    background:#c00;
+    float:left;
+    margin-right:10px;
+    text-align: center;
+    font:18px/50px Microsoft YaHei;
+}
+.buy_now:hover{
+    color:#fff;
+    background:#b90000;
+}
+.store_buy{
+    width:138px;
+    height:48px;
+    border:1px solid #ffd9d9;
+    background:#ffeded;
+    color:#c00;
+    float:left;
+    font:18px/48px Microsoft YaHei;
+    margin-right:10px;
+    text-align: center;
+}
+.store_buy:hover{
+    color:#c00;
+    background: #ffe2e2;
+}
+
+
+
+/*店铺信息*/
+.store_info{
+    float: right;
+    margin: 0 0 -500px;
+    padding: 0 0 40px;
+    width: 197px;
+    border-left: 1px solid #ededed;
+}
+.store_info .store_name{
+    padding:26px 10px ;
+    text-align: center;
+    border-bottom:1px solid #eee;
+}
+.store_name h3{
+    font:14px/22px Microsoft YaHei;
+}
+.store_name h3 a{
+    color:#134ba0;
+}
+.store_name h3 a:hover{
+    color:#c00;
+    text-decoration: underline;
+}
+.modbox{
+    padding:0 15px;
+}
+.modbox .modbox_hd{
+    font-size:12px ;
+    color:#999;
+    height:32px;
+    line-height: 32px;
+}
+.custom_service li{
+    padding:3px 0 ;
+    color:#666;
+}
+.custom_service li a{
+    float:left;
+}
+.custom_service img{
+    display:inline-block;
+    margin-right:6px;
+}
+.custom_service li span{
+    float:left;
+    line-height: 24px;
+}
+.contact_way{
+    padding-top:5px;
+}
+.contact_way li{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:60px;
+    color:#666;   
+    position: relative;
+}
+.contact_way span{
+    position:absolute;
+    top:5px;
+    left:0;
+    color:#999;
+}
+.c00{
+    color:#c00;
+}
+.store_score li{
+    color:#999;
+    font:12px/24px Microsoft YaHei;
+}
+.store_score em{
+    padding-right:15px;
+    font-weight:bold;
+}
+.collect_box{
+    margin-top:22px;
+}
+.collect_box a{
+    display: inline-block;
+    margin: 0 4px;
+    width: 72px;
+    height: 28px;
+    font: 14px/28px "Microsoft YaHei";
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    background: #fafafa;
+    color: #666;
+}
+
+.hotbox{
+    margin-top:10px;
+    border:1px solid #ededed;
+}
+.hotbox_hd{
+    padding:0 10px;
+    height:32px;
+    font:14px/32px Microsoft YaHei;
+    border:1px solid #ededed;
+    background:#fafafa;
+}
+.product_list{
+    padding-left:17px;
+}
+.product_list li{
+    float:left;
+    padding:20px 22px 22px;
+    width:150px;
+}
+.product_list .pic{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.product_list .title{
+    display: block;
+    padding: 13px 0 0;
+    height: 32px;
+    overflow: hidden;
+    font: 12px/16px "Microsoft YaHei";
+    cursor: pointer;
+}
+.product_list .price{
+    padding: 4px 0 0;
+    height: 30px;
+    overflow: hidden;
+    font: 12px/30px Verdana;
+    color: #f33;
+}
+.product_list .price span{
+    font-size:18px;
+}
+.product_list .price a:hover{
+    color:#c00;
+    text-decoration: underline;
+}
+.side{
+    float:left;
+    width:200px;
+}
+.searchgoods{
+    padding:10px 15px;
+}
+.searchgoods dl{
+    padding-left:48px;
+    margin-bottom:6px;
+    position:relative;
+}
+.searchgoods dt{
+    position:absolute;
+    top:0;
+    left:0;
+    height:26px;
+    line-height: 26px;
+}
+.searchgoods .text{
+
+    width:104px;
+    height:18px;
+    padding:3px 5px;
+    line-height:18px;
+    border:1px solid #e6e6e6;
+}
+.searchprice .text{
+    width:36px;
+    float:left;
+}
+.searchprice span{
+    float:left;
+    padding:0 4px;
+    line-height:26px;
+    color:#666;
+}
+.goodsbtn{
+    display: block;
+    margin: 0 0 0 48px;
+    width: 60px;
+    height: 26px;
+    border: 1px solid #d9d9d9;
+    background: #f7f7f7;
+    font: bold 12px/26px arial;
+    cursor: pointer;
+}
+.nocomment,.goods_category li, .goods_category dt, .phone_purchase .ico, .phone_purchase a{
+    background:url(../images/detail/bg.png) no-repeat;
+}
+.goods_category dt{
+    padding: 0 0 0 37px;
+    height: 34px;
+    font: 14px/34px "Microsoft YaHei";
+    background-position: -23px -570px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+.goods_category .all_goods dt{
+    background:#fff;
+    border:none;
+    font-weight: bold;
+}
+.goods_category .all_goods dd{
+    display:block;
+    padding:0 0 7px 37px;
+    line-height:18px;
+}
+.all_goods a{
+    color:#333;
+}
+.all_goods dd a{
+    margin-right:14px;
+}
+.goods_category dt h3{
+    font:14px/34px Microsoft YaHei;
+}
+.goods_category dd{
+    display:none;
+    padding:5px 0;
+    line-height:22px;
+}
+.goods_category ul{
+    padding-left:43px;
+}
+
+.goods_category li{
+    line-height: 22px;
+    padding-left:10px;
+    background-position: -56px -468px;
+}
+
+.sales_news{
+    padding:0 10px 6px;
+}
+.sales_news li{
+    margin-top:-1px;
+    padding:10px 0;
+    border-top:1px solid #f2f2f2;
+}
+.sales_news .price{
+    color:#999;
+    font-size:12px;
+    line-height: 22px;
+    height:22px;
+}
+.sales_news .sales_price{
+    color:#c00;
+    font-weight:bold;
+}
+.sales_news .sales_price em{
+    padding-left:5px;
+}
+.sales_news li .title{
+    display: block;
+    height: 36px;
+    line-height: 18px;
+}
+.side_tab{
+    padding:0 15px;
+}
+.side_tab li{
+    float: left;
+    width: 84px;
+    height: 33px;
+    border-bottom: 1px solid #e6e6e6;
+    font: 14px/33px "Microsoft YaHei";
+    text-align: center;
+    cursor: pointer;
+}
+.side_tab .current{
+    border-bottom:1px solid #f60;
+}
+.ranking_list{
+    position:relative;
+    padding:0 15px;
+}
+.ranking_list li{
+    position: relative;
+    zoom: 1;
+    margin: -1px 0 0;
+    padding: 8px 0 8px 77px;
+    height: 60px;
+    overflow: hidden;
+    border-top: 1px dotted #e6e6e6;
+}
+.ranking_list .pic{
+    position:absolute;
+    top:10px;
+    left:0;
+}
+.ranking_list .pic img{
+    border:1px solid #ededed;
+    display:block;
+}
+.ranking_list .title{
+    height:18px;
+    overflow: hidden;
+}
+a{
+    color:#134ba0;
+}
+.ranking_list .price{
+    display: block;
+    padding: 1px 0;
+    font: bold 14px/22px "Verdana";
+    color: #f4214c;
+}
+.ranking_list .sale_num{
+    color:#666;
+}
+.ranking_list .sale_num em{
+    color:#c97;
+    font-weight: bold;
+}
+
+
+/*_________________________________main________________________________________*/
+.main{
+    float:right;
+    width:990px;
+}
+.tabbar ul{
+    margin: 10px 0 0;
+    height: 36px;
+    border: 1px solid #ededed;
+    background: #fafafa;
+}
+.tabbar .cur {
+    margin: -1px 0 -1px -1px;
+    padding: 0 0 2px;
+    position: relative;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #ededed;
+    border-top: 2px solid #c00;
+    border-bottom:none;
+}
+.tabbar .cur a ,.tabbar .cur a:hover{
+    display: block;
+    font: 14px/34px "Microsoft YaHei";
+    color: #333;
+}
+.tabbar li{
+    float: left;
+    border-right: 1px solid #ededed;
+}
+.tabbar li a{
+    padding: 0 15px;
+    display: block;
+    color: #333;
+    font: 14px/36px "Microsoft YaHei";
+    white-space: nowrap;
+}
+.tabbar li a:hover{
+    color:#c00;
+}
+.tabbar li em{
+    padding: 0 0 0 5px;
+    font-weight: bold;
+    color: #c00;
+}
+.tabbar .cur a{
+    display: block;
+    font: 14px/34px "Microsoft YaHei";
+    color: #333;
+    text-decoration: none;
+}
+.tabbar .buy_btn{
+    float:right;
+    border:none;
+    display:none;
+}
+.tabbar .buy_btn span{
+    display: block;
+    margin: 0 1px 0 0;
+    padding: 0;
+    width: 200px;
+    height: 36px;
+    background: #c00;
+    color: #fff;
+    font: 14px/36px "Microsoft YaHei";
+    text-align: center;
+    cursor:pointer;
+}
+/*吸顶菜单*/
+.suck_top .tabbar_nav{
+    width:1263px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 36px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background: #fafafa;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+}
+.suck_top .tabbar_nav ul{
+    margin: 0 auto;
+    width: 999px;
+    padding: 0 0 0 201px;
+    border: 0 none;
+}
+.suck_top .sidebar{
+    position: fixed;
+    top: 36px;
+    left: 50%;
+    margin: 0 0 0 400px;
+    float: none;
+    z-index: 49;
+    overflow: hidden;
+}
+/*//吸顶菜单*/
+
+.phone_purchase{
+    position:relative;
+}
+.tabbar .phone_purchase a{
+    position: relative;
+    padding: 0 25px 0 38px;
+    background-position: -24px -1230px;
+    color: #c00;
+}
+.phone_purchase .ico{
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    width: 5px;
+    height: 3px;
+    font: 0/0 arial;
+    background-position: 0 -1241px;
+}
+.phone_purchase_hover .ico{
+    background-position: 0 -1253px;
+}
+.code{
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: -1px;
+    padding: 10px 14px;
+    width: 91px;
+    border: 1px solid #ededed;
+    border-top-color: #fff;
+    background: #fff;
+    z-index: 1;
+}
+.code img{
+    width:91px;
+    height:91px;
+    display:block;
+}
+
+/*_________________________________商品详情————————————————————————————————*/
+.goods_container{
+    float:left;
+    width:790px;
+}
+.attributes_list{
+    margin-top:10px;
+}
+.attributes_list li{
+    margin: 0 0 8px;
+    padding: 4px 0;
+    font: 12px/22px "Microsoft YaHei";
+}
+.attributes_list span{
+    font-weight: bold;
+}
+.serivce_banner{
+    width:790px;
+    height:200px;
+    background:url(../images/detail/sevice-banner-new.png) no-repeat;
+}
+.service_title{
+    width:790px;
+    height:33px;
+    background:url(../images/detail/sevice-title-new.png) no-repeat;
+    font:20px/33px Microsoft YaHei;
+}
+.service_title .title{
+    display: inline-block;
+    padding: 0 0 0 10px;
+    width: 160px;
+    text-align: center;
+    color: #c00;
+}
+.service_title .english_title{
+    display: inline-block;
+    padding: 0 0 0 50px;
+    color: #fff;
+}
+
+.service_content{
+    padding: 10px 0px;
+    font: 14px/24px "Microsoft YaHei";
+    color: #646464;
+}
+.service_content p{
+    padding:0;
+}
+.service_content dl{
+    padding:10px 0;
+}
+.detail_head .title{
+    position: relative;
+    height: 30px;
+    padding-left: 14px;
+    line-height: 30px;
+    background-color: #c00;
+}
+.detail_head .title h4{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+}
+.detail_head_filter{
+    padding: 10px 15px 0 15px;
+    height: 34px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+}
+.detail_head_filter .checks{
+    float: left;
+    line-height: 26px;
+    padding-left: 20px;
+}
+.checks .cur{
+    color:#f30;
+}
+.detail_head_filter .checks input{
+    margin: 0 5px 0 0;
+    position: relative;
+    top: -2px;
+}
+.detail_head_filter .checks label{
+    margin-right:20px;
+}
+ .nocomment{
+    margin: 20px 0 0 16px;
+    padding: 0 0 10px 33px;
+    font: 12px/24px "Microsoft YaHei";
+    background-position: -35px -224px; 
+}
+.purchase_record{
+    margin-top:10px;
+}
+.detail_head_filter .ask_link{
+    float: right;
+    line-height: 26px;
+    color: #36c;
+}
+.messagebox{
+    border: 1px solid #e6e6e6;
+    border-top:none;
+}
+.enter_message{
+    margin-top:25px;
+}
+.messagebox textarea{
+    display: block;
+    padding: 5px 15px;
+    width: 718px;
+    height: 153px;
+    border: none;
+    resize: none;
+    font: 12px/22px "Microsoft YaHei";
+    color: #666;
+}
+.question_foot{
+    position: relative;
+    padding: 0 117px 0 10px;
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px solid #e6e6e6;
+}
+.question_foot label{
+    float:left;
+    color:#666;
+}
+.question_foot span{
+    float:left;
+    color:#999;
+}
+.publish_btn{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    height: 37px;
+    width: 104px;
+    line-height: 37px;
+    text-align: center;
+    background: #cd0100;
+    color: #fff;
+}
+.publish_btn:hover{
+    color:#fff;
+}
+.sidebar{
+    float: right;
+    width: 198px;
+    border: 1px solid #ededed;
+    border-top: 0 none;
+    background: #fafafa;
+}
+.quick_menu{
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+.quick_menu li{
+    height: 45px;
+    font: 14px/45px "Microsoft YaHei";
+    vertical-align: middle;
+}
+.quick_menu a{
+    display: block;
+    padding: 0 0 0 22px;
+    background: url(../images/detail/quick-menu.png) no-repeat;
+    color: #333;
+    vertical-align: baseline;
+}
+.quick_menu .cur a, .quick_menu a:hover{
+    background-position: 0 -45px;
+    color: #c00;
+}
+
+
+.parameter{
+    padding-top:10px;
+    display:none;
+}
+.parameter table{
+    border: 1px solid #dbe8f4;
+    border-collapse: collapse;
+    width:100%;
+}
+.parameter .parameter_title{
+    width: 130px;
+    background: #f1fafe;
+    text-align: right;
+}
+.parameter .parameter_info{
+    background: #fff;
+    text-align: left;
+}
+.parameter td{
+    height: 24px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #dbe8f4;
+    color: #666;
+}
+
+
+/*加入购物车-----------------------------*/
+.layer_box{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 0 0 0 -208px;
+    padding: 4px;
+    width: 416px;
+    background: rgba(0,0,0,0.15);
+    z-index: 200;
+    display:none;
+}
+.layer_body{
+    padding: 40px 20px 40px 48px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.layer_success{
+    padding: 10px 0 8px 60px;
+    background:url(../images/detail/bg.png) no-repeat -14px -893px;
+}
+.layer_success h3{
+    font-size:18px;
+    line-height:50px;
+}
+.layer_body .layer_foot{
+    padding-top:15px;
+    padding-left:60px;
+}
+.layer_foot_btn{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #fff;
+    border: 0 none;
+    background: #c00;
+    cursor: pointer;
+}

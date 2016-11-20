@@ -1,0 +1,245 @@
+
+.wrapper{
+	width:990px;
+	margin:0 auto;
+}
+/*网页头部*/
+.header{
+	padding:20px 0;
+	margin-bottom:26px;
+}
+.header .login_bar{
+	padding-top:21px;
+	font:14px/22px "Arial";
+	float:right;
+}
+.header .login_bar a{
+	display:inline-block;
+	height:16px;
+	color:#c00;
+	line-height:16px;
+	padding:3px 9px;
+}
+.header .login_bar a:hover{
+	color:#fff;
+	background:#c00;
+}
+.logo{
+	float:left;
+}
+.logo a{
+	float:left;
+}
+.logo a img{
+	float:left;
+}
+.logo a p{
+	float: left;
+    margin: 8px 0 0 8px;
+    padding-left: 10px;
+    font: 14px/44px simsun;
+    color: #666;
+    border-left: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+/*网页头部--------------------------------------------------------------end*/
+
+/*注册模块*/
+
+.register_wrapper{
+	width:980px;
+	border:1px solid #e6e6e6;
+	padding-bottom:100px;
+	margin:auto;
+}
+.register_title{
+	padding:16px 0 16px 90px;
+	font:18px/28px "Microsoft YaHei";
+	color:#999;
+	background:#fafafa;
+}
+.register_module{
+	width:500px;
+	padding:30px 0 0 89px;
+	float:left;
+}
+.register_module ul{
+	height:39px;
+	border-bottom:1px solid #e6e6e6;
+}
+.register_module ul li{
+	float:left;
+	width:250px;
+	text-align: center;
+	border-left:1px solid #e6e6e6;
+	border-right:1px solid #e6e6e6;
+	border-top:2px solid #e02d2d;
+	
+
+}
+.register_module ul li span{
+	display:inline-block;
+	font:18px/38px "Microsoft YaHei";
+	color:#c00;
+	padding-left:20px;
+	background:url(../images/register-bg.png) no-repeat -158px -235px;
+	cursor:default;
+}
+.register_contenter{
+	padding-top:30px;
+}
+.register_contenter .rc_pubic{
+	margin-bottom: 42px;
+	padding-left: 83px;
+	position:relative;
+}
+
+.rc_pubic .label{
+	width:83px; 
+	font:14px/40px "Arial";
+	text-align: right;
+	color:#666;
+	position: absolute;
+	top:0;
+	left:0;
+
+}
+.rc_pubic .label .xh{
+	font-size:12px;
+	padding-right:7px;
+	color:#f30;
+
+}
+.rc_pubic .text{
+	display:block;
+	width:278px;
+	height:22px;
+	border:1px solid #ccc;
+	padding:8px 5px;
+	margin-right:10px;
+}
+.rc_pubic .register_wtips{
+	position: absolute;
+	top:0;
+	left:383px;
+	padding-left:20px;
+	color:#f03333;
+	background:url(../images/register-bg.png) no-repeat -155px -184px;
+	font:12px/40px "Arial";
+	z-index: 2;
+	display: none;
+}
+.rc_pubic .register_rtips{
+	background:url(../images/register-bg.png) no-repeat -155px -162px;
+	width:15px;
+	height:15px;
+	position:absolute;
+	top:12px;
+	left:383px;
+	display:none;
+
+}
+.register_tips{
+	position:absolute;
+	top:47px;
+	left:83px;
+	color:#aaa;
+}
+.agreement{
+	display: block;
+    padding-left:83px;
+    height: 32px;
+    font: 12px/32px "Arial";
+    color: #999;
+}
+.ag{
+	margin-right:3px;
+
+}
+.register_btn{
+	width:290px;
+	height:40px;
+	display:block;
+	margin-top:20px;
+	margin-left:83px;
+	border:none;
+	cursor:pointer;
+	text-align: center;
+	font:bold 14px/40px "Arial";
+	background:url(../images/shop_login_bg.png) no-repeat 0 0;
+	color:#fff;
+}
+.register_btn:hover{
+	background-position: 0 -41px;
+}
+/*注册模块------------------------------------------------------end*/
+
+
+
+
+/*快速登录模块*/
+
+
+.fast_login{
+	width:170px;
+	float:right;
+	padding-right:80px;
+	padding-left:25px;
+	margin-top:30px;
+	border-left: 1px solid #f5f5f5;
+}
+.fast_login p{
+
+	color:#666;
+	line-height:24px;
+
+
+}
+.fast_login_list a{
+	display:block;
+	width:170px; 
+	height:36px;
+	margin-top:15px;
+}
+.sina{
+	background:url(../images/register-bg.png) no-repeat;
+	background-position: 0 0;
+}
+.qq{
+	background:url(../images/register-bg.png) no-repeat;
+	background-position:0 -37px;
+
+}
+.alipay{
+	background:url(../images/register-bg.png) no-repeat;
+	background-position: 0 -74px;	
+}
+.baidu{
+	background:url(../images/register-bg.png) no-repeat;
+	background-position: 0 -111px;
+}
+.sina:hover,.qq:hover,.alipay:hover,.baidu:hover{
+	opacity:0.8;
+}
+/*快速登录模快----------------------------------------------end*/
+
+/*页足*/
+.footer{
+	margin:70px auto 0;
+	padding:12px 0 25px;
+	border-top:1px solid #dcdcdc;
+}
+.footer .about{
+	float:left;
+}
+.footer .about a{
+	margin:0 10px;
+	float:left;
+}
+.footer .span{
+	float:left;
+}
+.footer .copyright{
+	float:right;
+}
+/*页足-------------------------------------------------------------end*/
